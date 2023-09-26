@@ -659,13 +659,10 @@ img {
 .footer-top {
   display: flex;
   justify-content: space-between;
-}
-.footer-logo{
-  margin-right: 120px;
-}
-.footer-tex {
+
   width: 264px;
   height: 112px;
+  margin-right: 120px;
 }
 .footer-link {
   font-family: Raleway, sans-serif;

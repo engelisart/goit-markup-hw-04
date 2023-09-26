@@ -656,15 +656,17 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer-top {
-  display: flex;
-  justify-content: space-between;
+.footer-title {
+  margin-right: 120px;
+
+  /* display: flex;
+  justify-content: space-between; */
 
   width: 264px;
   height: 112px;
-  margin-right: 120px;
+  
 }
-.footer-link {
+.title-logo-web {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -677,8 +679,7 @@ img {
   display: inline-block;
   text-transform: uppercase;
 }
-
-.footer-logo-studio {
+.title-logo-studio {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;

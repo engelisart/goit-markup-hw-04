@@ -799,7 +799,6 @@ img {
   padding: 0;
   background-color: var(--CORNFLOWER);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 8px;
   border-radius: 50%;
   cursor: pointer;
 
@@ -807,7 +806,6 @@ img {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition: color var(--trns-fast); */
 }
 
 .btn-close:hover,

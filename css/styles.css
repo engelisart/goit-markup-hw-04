@@ -220,12 +220,12 @@ img {
 */
 .hero {
   max-width: 1440px;
+  margin: 0 auto;
   padding: 188px 0;
   background: var(--NAVY-BLUE);
-}
-.hero-images {
+
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/img-name.jpeg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -572,14 +572,16 @@ img {
 .row-item {
   width: calc((100% - 48px) / 3);
 }
-.row-link {
-  text-decoration: none;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.overlay-link:hover,
+.overlay-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .overlay-link {
   display: block;
   color: inherit;
+  transition: box-shadow 250ms tecubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay-link:hover .overlay-text,
 .overlay-link:focus .overlay-text {
@@ -616,13 +618,7 @@ img {
   border: 1px solid var(--CORNFLOWER);
   border-top: none;
 }
-.row-titel-paragrah:hover,
-.row-titel-paragrah:focus {
-  border: 1px solid var(--CLOUD);
-  background: var(--WHITE);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
 .row-item-titel {
   font-family: Roboto, sans-serif;
   font-size: 20px;
